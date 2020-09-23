@@ -2,9 +2,10 @@ import React from "react"
 import {
   FaFacebookSquare,
   FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
   FaTwitterSquare,
+  FaDev,
+  FaGithub,
+  
 } from "react-icons/fa"
 
 const data = [
@@ -20,17 +21,17 @@ const data = [
   },
   {
     id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
+    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
     url: "https://www.twitter.com",
   },
   {
     id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
+    icon: <FaGithub className="social-icon"></FaGithub>,
     url: "https://www.twitter.com",
   },
   {
     id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
+    icon: <FaDev className="social-icon"></FaDev>,
     url: "https://www.twitter.com",
   },
 ]
