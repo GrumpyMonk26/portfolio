@@ -6,15 +6,15 @@ import SocialLinks from "../constants/socialLinks"
 // ...GatsbyImageSharpFluid
 
 const query = graphql`
-{
-  file(relativePath: {eq: "hero-img4.png"}) {
-    childImageSharp {
-      fluid {
-        ...GatsbyImageSharpFluid
+  {
+    file(relativePath: {eq: "hero-img.png"}) {
+      childImageSharp {
+        fluid {
+          src
+        }
       }
     }
   }
-}
 `
 
 const Hero = () => {
@@ -23,6 +23,7 @@ const Hero = () => {
       childImageSharp: { fluid },
     },
   } = useStaticQuery (query)
+
 
   return ( 
   <header className="hero">
