@@ -11,22 +11,22 @@ const data = [
   {
     id: 1,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/in/jason-evans-26a19a192/",
   },
   {
     id: 2,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    url: "https://twitter.com/Evans_webDev",
   },
   {
     id: 3,
     icon: <FaGithub className="social-icon"></FaGithub>,
-    url: "https://www.twitter.com",
+    url: "https://github.com/GrumpyMonk26",
   },
   {
     id: 4,
     icon: <FaDev className="social-icon"></FaDev>,
-    url: "https://www.twitter.com",
+    url: "https://dev.to/evans_webdev",
   },
 ]
 const links = data.map(link => {

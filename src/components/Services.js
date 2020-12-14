@@ -1,6 +1,7 @@
 import React from "react"
 import Title from "./Title"
 import services from "../constants/services"
+import TechnologyStack from "./TechnologyStack"
 
 const Services = () => {
   return (
@@ -20,6 +21,7 @@ const Services = () => {
         )
       })}
     </div>
+    <TechnologyStack />
   </section>
   )
 }

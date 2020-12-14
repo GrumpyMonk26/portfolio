@@ -10,7 +10,7 @@ const query = graphql`
     file(relativePath: {eq: "hero-img.png"}) {
       childImageSharp {
         fluid {
-          src
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -32,7 +32,7 @@ const Hero = () => {
         <div>
           <div className="underline"></div>
           <h1>I'm Jason</h1>
-          <h4>Freelance Front-End Web Developer Specializing in UX/UI</h4>
+          <h4>Freelance Front-End Web Developer Specializing in UX/UI</h4> 
           <Link to='/contact' className="btn">
             Contact Me
           </Link>
